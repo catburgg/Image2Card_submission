@@ -1,0 +1,20 @@
+# python=3.12.3
+# CPU default. For GPU, install the matching paddlepaddle-gpu wheel manually.
+paddlepaddle>=3.0.0
+paddleocr>=3.0.0          # includes PaddleX v3 pipeline API
+
+# Image I/O & visualisation
+opencv-python>=4.9.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+openai==2.30.0
+httpx>=0.28.0
+PyQt5==5.15.11
+pydantic==2.12.5
+pillow==10.3.0
+numpy>=2.0.0
+matplotlib>=3.10.0
+networkx>=3.0
+python-louvain>=0.16
+requests>=2.32.0

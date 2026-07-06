@@ -1,0 +1,19 @@
+name: image2card
+channels:
+  - defaults
+dependencies:
+  - python=3.12.3
+  - openai=2.30.0
+  - pillow=10.3.0
+  - pydantic=2.12.5
+  - pyqt=5
+  - numpy
+  - matplotlib
+  - networkx
+  - python-louvain
+  - requests
+  - pip
+  - pip:
+      - paddlepaddle>=3.0.0
+      - paddleocr>=3.0.0
+      - opencv-python>=4.9.0

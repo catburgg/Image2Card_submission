@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 密钥（只提交 .env.example 模板）
+.env
+.env.local
+
+# 系统 / 编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 运行时日志
+logs/
+*.log
